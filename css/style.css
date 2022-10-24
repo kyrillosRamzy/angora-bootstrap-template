@@ -1,0 +1,323 @@
+.header-section p {
+  font-size: 6rem;
+  opacity: 0.05;
+  bottom: -60%;
+}
+.special-p {
+  width: 65%;
+  font-size: 1.2rem;
+}
+.line {
+  content: "" !important;
+  width: 35px;
+  height: 1px;
+  margin: auto;
+  background-color: black;
+  transition: 0.3s;
+}
+.cap:hover .line {
+  width: 50px;
+}
+.bg-gray {
+  background-color: #fafafa;
+}
+/* home section */
+nav li a {
+  transition: 0.4s;
+}
+nav li a:hover {
+  color: #f25454 !important;
+}
+.nav-link.active {
+  color: #f25454 !important;
+}
+header .social a {
+  color: transparent;
+}
+.social a i {
+  transition: 0.4s;
+}
+.social a i:hover {
+  color: #f25454 !important;
+}
+h1 {
+  font-size: 6rem;
+}
+.img-one {
+  background-image: url("../images/slideshow-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.img-two {
+  background-image: url("../images/slideshow-2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.img-three {
+  background-image: url("../images/slideshow-3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.car-btn {
+  padding: 7px 12px;
+  transition: 1s;
+}
+.car-btn i {
+  font-size: 1.5rem;
+  color: #fff;
+  opacity: 1 !important;
+}
+.car-btn:hover {
+  background-color: white !important;
+  opacity: 1 !important;
+}
+.car-btn:hover i {
+  color: #f25454;
+}
+/* gear icon */
+.gear {
+  width: 40px;
+  height: 40px;
+  top: 20%;
+  background-color: #1f2528;
+  border: none;
+}
+.gear:hover {
+  background-color: #383e41;
+}
+.gear i {
+  color: #fff;
+}
+/* scroll */
+.scroll {
+  width: 30px;
+  height: 45px;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+.scroll:hover {
+  border-color: #f25454 !important;
+}
+.scroll::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: 7px;
+  transform: translateX(-50%);
+  animation: scroll 2s infinite linear;
+}
+.scroll:hover::after {
+  background-color: #f25454 !important;
+}
+@keyframes scroll {
+  0% {
+    top: 8%;
+  }
+  100% {
+    top: 92%;
+  }
+}
+/* about section */
+.line-80 {
+  left: 74%;
+}
+.line-95 {
+  left: 89%;
+}
+.line-85 {
+  left: 79.5%;
+}
+.line-70 {
+  left: 64%;
+}
+.progress-height {
+  height: 0.3rem;
+  margin-bottom: 2rem;
+}
+.progress-bg {
+  background-color: #f25454;
+}
+/* team section */
+.team-img .team-social {
+  transition: 0.2s;
+}
+.card-body:hover .team-social {
+  background-color: rgba(242, 84, 84, 0.85);
+  opacity: 1 !important;
+}
+.team-img img {
+  transition: 0.4s;
+}
+.card-body:hover img {
+  transform: scale(1.1);
+}
+.card-body h3 {
+  margin-bottom: 0.1rem !important;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+.card-body:hover h3 {
+  color: #f25454;
+}
+.card-body p {
+  font-size: 0.9rem;
+}
+/* service section */
+.service-items .icon {
+  margin-top: 0.25rem;
+  color: #f25454;
+}
+.service-items h3 {
+  font-size: 1.2rem;
+  transition: 1s;
+}
+.service-item:hover h3 {
+  color: #f25454;
+}
+/* contact section */
+.contact button {
+  padding: 13px 28px;
+  border: none;
+  background-color: #f25454;
+  color: #fff;
+}
+/*  review section  */
+.review-cap {
+  width: 80%;
+}
+.carousel-indicators [data-bs-target] {
+  width: 130px;
+  height: auto;
+  padding: 5px;
+  text-indent: 0;
+}
+.carousel-indicators [data-bs-target] h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.carousel-indicators [data-bs-target] span {
+  font-size: 0.88rem;
+}
+blockquote {
+  font-size: 2rem;
+}
+/* form section */
+.fa-ul i {
+  font-size: 2.5rem;
+  transform: translateY(20%);
+  color: #f25454;
+}
+.fa-ul h4 {
+  transition: 0.4s;
+}
+.fa-ul li:hover h4 {
+  color: #f25454;
+}
+.form-ul-cap {
+  margin-left: 2.5rem;
+}
+form button {
+  padding: 13px 28px;
+  border: none;
+  background-color: #f25454;
+  color: #fff;
+}
+input {
+  padding: 10px 15px;
+  border: 1px solid #ced4da;
+}
+textarea {
+  padding: 10px 15px;
+  border: 1px solid #ced4da;
+}
+/* footer */
+footer {
+  background-color: #222;
+  background-image: url("../images/dotted-map.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: center;
+}
+.back {
+  width: 50px;
+  height: 50px;
+  background-color: #f2545455;
+}
+.back:hover {
+  background-color: #f25454;
+}
+.back i {
+  font-size: 1rem;
+}
+.back {
+  transition: 0.5s;
+  color: transparent !important;
+}
+footer a[href]:hover {
+  color: #f25454 !important;
+}
+footer button {
+  padding: 5px 10px;
+  border: 1px solid #b0b0b0;
+  background-color: transparent;
+  font-size: 1rem;
+  color: #b0b0b0;
+  transition: 0.5s;
+}
+footer button:hover {
+  border-color: #f25454;
+  color: #f25454;
+}
+.footer-social {
+  background-color: #1a1a1a;
+}
+.social a {
+  color: #1a1a1a;
+}
+.footer-social i {
+  color: #fff;
+}
+.footer-social i:hover {
+  color: #f25454;
+}
+/* media query */
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 5rem;
+  }
+  .special-p {
+    width: 90%;
+  }
+  .review-cap {
+    width: 85% !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 3.8rem;
+  }
+  .special-p {
+    width: 100%;
+  }
+  .review-cap {
+    width: 92% !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .special-p {
+    width: 100%;
+  }
+  .review-cap {
+    width: 100% !important;
+  }
+}
